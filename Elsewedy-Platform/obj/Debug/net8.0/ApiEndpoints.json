@@ -1,0 +1,112 @@
+[
+  {
+    "ContainingType": "Elsewedy_Platform.Controllers.AchivmentsController",
+    "Method": "delete",
+    "RelativePath": "api/Achivments",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Platform.Controllers.AchivmentsController",
+    "Method": "add",
+    "RelativePath": "api/Achivments/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "image",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Platform.Controllers.AchivmentsController",
+    "Method": "get",
+    "RelativePath": "api/Achivments/get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Platform.Controllers.Projects_InformationController",
+    "Method": "GetAll",
+    "RelativePath": "api/Projects_Information",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Platform.Controllers.Projects_InformationController",
+    "Method": "Post",
+    "RelativePath": "api/Projects_Information",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "x",
+        "Type": "Elsewedy_Platform.Models.DTO.Project_Infromation_DTO_add",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Platform.Controllers.Projects_InformationController",
+    "Method": "update_statue",
+    "RelativePath": "api/Projects_Information",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Elsewedy_Platform2.Controllers.TeacherController",
+    "Method": "Login",
+    "RelativePath": "api/Teacher",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "Elsewedy_Platform2.Models.DTO.Login_DTO_Teacher",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
